@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_animation/static/css/main.92aa11e7.css",
+    "main.js": "/React_animation/static/js/main.f447a377.js",
+    "index.html": "/React_animation/index.html",
+    "main.92aa11e7.css.map": "/React_animation/static/css/main.92aa11e7.css.map",
+    "main.f447a377.js.map": "/React_animation/static/js/main.f447a377.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92aa11e7.css",
+    "static/js/main.f447a377.js"
+  ]
+}
