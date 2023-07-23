@@ -1,0 +1,88 @@
+ #name{
+  
+    width:400px;
+    height: 400px;
+    background-color: black;
+    animation-name: smaple;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes smaple{
+    0% { background-color: red; width: 10px;}
+    10% { background-color: green; width: 20px;}
+    20% { background-color: blue; width: 30px;}
+    25% { background-color: pink; width: 50px;}
+   30% { background-color: yellowgreen; width: 60px;}
+   40% { background-color: brown; width: 80px;}
+   50% { background-color: yellow; width: 400px;}
+   60% { background-color: yellow; width: 550px;}
+   60% { background-color: yellow; width: 600px;}
+   70% { background-color: yellow; width: 700px;}
+   80% { background-color: yellow; width: 800px;}
+    100% { background-color: yellow; width: 1000px;}
+}
+ 
+ 
+ 
+ 
+ .card{
+  display: inline-flex;
+  width: 37vw;
+  height: 60vh;
+  margin: 3vw;
+  background-color: black;
+  color: white;
+  filter: drop-shadow(16px 16px 20px black) invert(10%) ;
+  flex-direction: column;
+  border-radius: 2vw;
+flex-wrap: wrap;
+  
+
+  }
+
+div .hello{
+    width: 30vw;
+    height: 30vh;
+
+
+  }
+
+ 
+.wrap{
+  padding: 10px;
+  flex: 50%;
+}
+@media (max-width: 800px) { 
+  .card{
+    /* display: flex;
+    flex-direction: column; */
+    
+    margin-top: 2vh;
+    height: 65vh;
+width: 32vw;
+  }
+}
+
+  @media (max-width: 700px) { 
+    .card{
+      display: flex;
+      flex-direction: column;
+      
+      margin-top: 2vh;
+      height: 68vh;
+width: 32vw;
+    }
+  }
+  @media (max-width: 400px) { 
+    .card{
+      display: flex;
+      flex-direction: column;
+      
+      margin-top: 3vh;
+      height: 80vh;
+width: 50vw;
+    }
+  }
